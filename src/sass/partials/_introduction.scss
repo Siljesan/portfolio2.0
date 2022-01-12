@@ -1,0 +1,22 @@
+.introduction {
+  margin: $margin;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__text {
+    h1 {
+      color: $secondary-color;
+      font-size: 50px;
+    }
+    h2 {
+      color: $primary-color;
+      font-size: 40px;
+    }
+  }
+  &__img {
+    img {
+      width: 350px;
+      border-radius: 5px;
+    }
+  }
+}

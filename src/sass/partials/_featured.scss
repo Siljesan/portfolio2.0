@@ -1,0 +1,16 @@
+.highlights {
+  margin: $margin;
+  h3 {
+    color: $secondary-color;
+    font-size: 30px;
+  }
+  &__cont {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__cont--item {
+    background-color: $primary-color;
+    width: 400px;
+    border-radius: 5px;
+  }
+}
