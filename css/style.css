@@ -71,4 +71,14 @@ body {
   height: 100%;
   border-radius: 5px;
 }
+
+.contactform {
+  margin: 0 200px 0 200px;
+  margin-top: 6rem;
+}
+
+.contactform h3 {
+  color: #f63e3e;
+  font-size: 30px;
+}
 /*# sourceMappingURL=style.css.map */
