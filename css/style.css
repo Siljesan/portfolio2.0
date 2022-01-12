@@ -61,7 +61,13 @@ body {
 
 .highlights__cont--item {
   background-color: white;
-  width: 400px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.highlights__cont--item img {
+  width: 100%;
+  height: 100%;
   border-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */

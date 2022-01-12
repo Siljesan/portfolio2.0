@@ -10,7 +10,12 @@
   }
   &__cont--item {
     background-color: $primary-color;
-    width: 400px;
+    width: 300px;
     border-radius: 5px;
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+    }
   }
 }
