@@ -6,8 +6,7 @@ import "./sass/style.scss";
 
 function App() {
   return (
-    <div>
-      <Background />
+    <div className="backgroundImg">
       <Hero />
       <Featured />
       <Contact />

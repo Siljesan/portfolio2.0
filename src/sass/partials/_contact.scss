@@ -5,4 +5,11 @@
     color: $secondary-color;
     font-size: 30px;
   }
+  .form__details {
+    display: flex;
+    justify-content: space-between;
+  }
+  .form__details--group {
+    width: 45%;
+  }
 }
