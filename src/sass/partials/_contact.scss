@@ -3,7 +3,7 @@
   margin-top: 6rem;
   h3 {
     color: $secondary-color;
-    font-size: 30px;
+    font-size: 40px;
   }
   .form__details {
     display: flex;
@@ -11,5 +11,29 @@
   }
   .form__details--group {
     width: 45%;
+  }
+  label {
+    color: $primary-color;
+  }
+  input {
+    border: solid 2px $primary-color;
+    background-color: $primary-color;
+    opacity: 0.4;
+  }
+  textarea {
+    @extend input;
+  }
+  .form__btn {
+    display: flex;
+    justify-content: flex-end;
+    button {
+      background-color: $secondary-color;
+      opacity: 0.4;
+      border: solid 2px $secondary-color;
+      width: 300px;
+    }
+    button:hover {
+      opacity: 1;
+    }
   }
 }

@@ -32,10 +32,11 @@ function Contact() {
           <Form.Label>Message</Form.Label>
           <Form.Control as="textarea" rows={10} />
         </Form.Group>
-
-        <Button variant="primary" type="submit">
-          Submit
-        </Button>
+        <div className="form__btn">
+          <Button variant="primary" type="submit">
+            Submit
+          </Button>
+        </div>
       </Form>
     </div>
   );
