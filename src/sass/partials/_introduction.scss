@@ -1,5 +1,5 @@
 .introduction {
-  margin: $margin;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,8 +15,17 @@
   }
   &__img {
     img {
-      width: 300px;
+      width: 250px;
       border-radius: 5px;
     }
   }
+}
+
+.lp__content {
+  margin: $margin;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

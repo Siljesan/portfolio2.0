@@ -9,8 +9,10 @@ function App() {
   return (
     <div className="backgroundImg">
       <Header />
-      <Hero />
-      <Featured />
+      <div className="lp__content">
+        <Hero />
+        <Featured />
+      </div>
       <Contact />
     </div>
   );

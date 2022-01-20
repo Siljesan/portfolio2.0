@@ -1,8 +1,10 @@
 .highlights {
-  margin: $margin;
+  width: 100%;
+  margin-top: 3rem;
   h3 {
     color: $secondary-color;
     font-size: 30px;
+    margin-bottom: 1.5rem;
   }
   &__cont {
     display: flex;
