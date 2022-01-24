@@ -1,19 +1,17 @@
-import Background from "./components/Background";
+import { Route, Routes } from "react-router-dom";
+import About from "./components/About";
 import Contact from "./components/Contact";
-import Featured from "./components/Featured";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
+import Home from "./components/Home";
 import "./sass/style.scss";
 
 function App() {
   return (
     <div className="backgroundImg">
-      <Header />
-      <div className="lp__content">
-        <Hero />
-        <Featured />
-      </div>
-      <Contact />
+      <Routes>
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<Home />} />
+      </Routes>
     </div>
   );
 }

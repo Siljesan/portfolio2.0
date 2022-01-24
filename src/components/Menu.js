@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Button, Nav, Offcanvas } from "react-bootstrap";
+import { Link, NavLink } from "react-router-dom";
 
 function Menu() {
   const [show, setShow] = useState(false);
@@ -21,15 +22,10 @@ function Menu() {
           </Offcanvas.Header>
           <Offcanvas.Body>
             <Nav className="flex-column">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/about.html">About me / projects</Nav.Link>
-              <Nav.Link href="/">Contact</Nav.Link>
+              <Link to="/">Home</Link>
+              <Link to="/about">About me / projects</Link>
+              <Link to="/contact">Contact</Link>
             </Nav>
-            <ul>
-              <li>Home</li>
-              <li>About me / projects</li>
-              <li>Contact</li>
-            </ul>
           </Offcanvas.Body>
         </div>
       </Offcanvas>
