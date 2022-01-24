@@ -7,7 +7,6 @@ function Contact() {
     <div>
       <Header />
       <Contactform />
-      <h1>Testing</h1>
     </div>
   );
 }

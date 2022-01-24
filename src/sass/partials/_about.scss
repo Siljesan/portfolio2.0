@@ -1,0 +1,18 @@
+.about {
+  margin: $margin;
+  padding-top: 10rem;
+  height: 100vh;
+  &__cont {
+    width: 100%;
+    color: $primary-color;
+  }
+  h1 {
+    color: $secondary-color;
+    font-size: 3.8rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 1.6rem;
+  }
+}
