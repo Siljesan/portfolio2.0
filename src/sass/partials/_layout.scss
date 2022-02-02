@@ -1,0 +1,13 @@
+body {
+  min-height: 100vh;
+}
+.footer {
+  background-color: black;
+  margin-top: auto;
+  height: 50px;
+  padding-left: 20px;
+  font-size: 12px;
+  a {
+    color: $primary-color !important;
+  }
+}

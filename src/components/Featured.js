@@ -8,14 +8,29 @@ function Featured() {
     <div className="highlights">
       <h3>Project highlights</h3>
       <div className="highlights__cont">
-        <div className="highlights__cont--item">
-          <img src={sp2} alt="" />
+        <div className="highlights__cont--item highlights-content">
+          <div class="highlights-content-overlay"></div>
+          <img src={sp2} alt="screenshot from project" />
+          <div class="highlights-details fadeIn-bottom">
+            <h3 class="highlights-title">Semester project</h3>
+            <p class="highlights-text">December 2021</p>
+          </div>
         </div>
-        <div className="highlights__cont--item">
-          <img src={exam1} alt="" />
+        <div className="highlights__cont--item highlights-content">
+          <div class="highlights-content-overlay"></div>
+          <img src={exam1} alt="screenshot from project" />
+          <div class="highlights-details fadeIn-bottom">
+            <h3 class="highlights-title">Exam</h3>
+            <p class="highlights-text">June 2021</p>
+          </div>
         </div>
-        <div className="highlights__cont--item">
-          <img src={hackathon} alt="" />
+        <div className="highlights__cont--item highlights-content">
+          <div class="highlights-content-overlay"></div>
+          <img src={hackathon} alt="screenshot from project" />
+          <div class="highlights-details fadeIn-bottom">
+            <h3 class="highlights-title">Hackathon</h3>
+            <p class="highlights-text">spring semester 2021</p>
+          </div>
         </div>
       </div>
     </div>

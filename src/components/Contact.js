@@ -1,5 +1,6 @@
 import React from "react";
 import Contactform from "./Contactform";
+import Footer from "./Footer";
 import Header from "./Header";
 
 function Contact() {
@@ -7,6 +8,7 @@ function Contact() {
     <div>
       <Header />
       <Contactform />
+      <Footer />
     </div>
   );
 }

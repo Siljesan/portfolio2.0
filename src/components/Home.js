@@ -1,6 +1,7 @@
 import React from "react";
 import Contactform from "./Contactform";
 import Featured from "./Featured";
+import Footer from "./Footer";
 import Header from "./Header";
 import Hero from "./Hero";
 
@@ -13,6 +14,7 @@ function Home() {
         <Featured />
       </div>
       <Contactform />
+      <Footer />
     </div>
   );
 }
