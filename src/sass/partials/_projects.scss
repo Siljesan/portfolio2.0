@@ -93,4 +93,18 @@
   .fadeIn-bottom {
     top: 80%;
   }
+  @media (max-width: 970px) {
+    margin: $margin-mobile;
+    height: auto;
+    margin-bottom: 20px;
+    .projects-details {
+      opacity: 1;
+    }
+    .projects-content .projects-content-overlay {
+      opacity: 1;
+    }
+    .fadeIn-bottom {
+      top: 50%;
+    }
+  }
 }
