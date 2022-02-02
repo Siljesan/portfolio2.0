@@ -9,10 +9,16 @@
   &__cont {
     display: flex;
     justify-content: space-between;
+    @media (max-width: 1280px) {
+      flex-direction: column;
+    }
   }
   &__cont--item {
     background-color: $primary-color;
     border-radius: 5px;
+    @media (max-width: 1280px) {
+      margin-top: 2rem;
+    }
     img {
       width: 100%;
       height: 100%;
@@ -26,6 +32,10 @@
     max-width: 300px;
     margin: auto;
     overflow: hidden;
+    @media (max-width: 1280px) {
+      margin-top: 2rem;
+      max-width: 500px;
+    }
   }
 
   .highlights-content .highlights-content-overlay {

@@ -44,4 +44,21 @@
       opacity: 1;
     }
   }
+  @media (max-width: 1280px) {
+    h3 {
+      font-size: 30px;
+    }
+    .form__details {
+      flex-direction: column;
+    }
+    .form__details--group {
+      width: 100%;
+    }
+  }
+  @media (max-width: 970px) {
+    margin: 20px;
+    .form__btn {
+      justify-content: flex-start;
+    }
+  }
 }
