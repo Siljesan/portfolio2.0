@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, Nav, Offcanvas } from "react-bootstrap";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Menu() {
   const [show, setShow] = useState(false);

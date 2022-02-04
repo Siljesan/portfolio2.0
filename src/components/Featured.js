@@ -9,7 +9,11 @@ function Featured() {
       <h3>Project highlights</h3>
       <div className="highlights__cont">
         <div className="highlights__cont--item highlights-content">
-          <a href="https://angry-bassi-1ce917.netlify.app/" target={"_blank"}>
+          <a
+            href="https://angry-bassi-1ce917.netlify.app/"
+            target={"_blank"}
+            rel="noreferrer"
+          >
             <div class="highlights-content-overlay"></div>
             <img src={sp2} alt="screenshot from project" />
             <div class="highlights-details fadeIn-bottom">
@@ -22,6 +26,7 @@ function Featured() {
           <a
             href="https://pedantic-curran-7bf149.netlify.app/"
             target={"_blank"}
+            rel="noreferrer"
           >
             <div class="highlights-content-overlay"></div>
             <img src={exam1} alt="screenshot from project" />
@@ -35,6 +40,7 @@ function Featured() {
           <a
             href="https://friendly-shockley-b1d933.netlify.app/"
             target={"_blank"}
+            rel="noreferrer"
           >
             <div class="highlights-content-overlay"></div>
             <img src={hackathon} alt="screenshot from project" />

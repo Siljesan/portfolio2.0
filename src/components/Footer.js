@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -8,6 +7,7 @@ function Footer() {
         <a
           href="https://www.pexels.com/nb-no/bilde/abstrakt-svart-bakgrunn-havkyst-sanddyne-2387793/"
           target={"_blank"}
+          rel="noreferrer"
         >
           Background image from: pexels.com
         </a>

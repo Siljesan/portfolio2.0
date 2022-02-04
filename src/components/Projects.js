@@ -18,6 +18,7 @@ function Projects() {
                   <a
                     href="https://angry-bassi-1ce917.netlify.app/"
                     target={"_blank"}
+                    rel="noreferrer"
                   >
                     <div class="projects-content-overlay"></div>
                     <img src={sp2} alt="screenshot from project" />
@@ -33,6 +34,7 @@ function Projects() {
                   <a
                     href="https://angry-bassi-1ce917.netlify.app/"
                     target={"_blank"}
+                    rel="noreferrer"
                   >
                     <div class="projects-content-overlay"></div>
                     <img src={exam1} alt="screenshot from project" />
@@ -50,6 +52,7 @@ function Projects() {
                   <a
                     href="https://angry-bassi-1ce917.netlify.app/"
                     target={"_blank"}
+                    rel="noreferrer"
                   >
                     <div class="projects-content-overlay"></div>
                     <img src={hackathon} alt="screenshot from project" />
@@ -65,6 +68,7 @@ function Projects() {
                   <a
                     href="https://mystifying-knuth-c64610.netlify.app/"
                     target={"_blank"}
+                    rel="noreferrer"
                   >
                     <div class="projects-content-overlay"></div>
                     <img src={project1} alt="screenshot from project" />
