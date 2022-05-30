@@ -43,6 +43,13 @@ function Contactform() {
     setToggle();
   };
 
+  if (error) {
+    <div className="error-message">
+      <h2>Something went wrong</h2>
+      <p>{error.message}</p>
+    </div>;
+  }
+
   return (
     <div className="contactform">
       <div className="contactform__cont">
