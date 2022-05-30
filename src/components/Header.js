@@ -6,12 +6,24 @@ function Header() {
   return (
     <div className="header">
       <div className="header__icons">
-        <Button>
-          <i className="fab fa-linkedin-in"></i>
-        </Button>
-        <Button>
-          <i className="fab fa-github"></i>
-        </Button>
+        <a
+          href="https://www.linkedin.com/in/silje-sch%C3%B8ll-897ab0158/"
+          target={"_blank"}
+          rel="noreferrer"
+        >
+          <Button>
+            <i className="fab fa-linkedin-in"></i>
+          </Button>
+        </a>
+        <a
+          href="https://github.com/Siljesan"
+          target={"_blank"}
+          rel="noreferrer"
+        >
+          <Button>
+            <i className="fab fa-github"></i>
+          </Button>
+        </a>
       </div>
       <Menu />
     </div>

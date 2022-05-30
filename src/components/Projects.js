@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import sp2 from "../semester-project2.jpg";
-import exam1 from "../exam1.JPG";
-import hackathon from "../hackathonJPG.JPG";
-import project1 from "../project1.jpg";
+import sp2 from "../media/semester-project2.jpg";
+import exam1 from "../media/exam1.JPG";
+import exam2 from "../media/exam2.JPG";
+import project1 from "../media/project1.jpg";
 
 function Projects() {
   return (
@@ -32,14 +32,14 @@ function Projects() {
               <Col className="projects__cont--item" sm={4}>
                 <div className="projects-content">
                   <a
-                    href="https://angry-bassi-1ce917.netlify.app/"
+                    href="https://pedantic-curran-7bf149.netlify.app/"
                     target={"_blank"}
                     rel="noreferrer"
                   >
                     <div class="projects-content-overlay"></div>
                     <img src={exam1} alt="screenshot from project" />
                     <div class="projects-details fadeIn-bottom">
-                      <h3 class="projects-title">Exam</h3>
+                      <h3 class="projects-title">Project Exam 1</h3>
                       <p class="projects-text">June 2021</p>
                     </div>
                   </a>
@@ -50,15 +50,15 @@ function Projects() {
               <Col className="projects__cont--item" sm={4}>
                 <div className="projects-content">
                   <a
-                    href="https://angry-bassi-1ce917.netlify.app/"
+                    href="https://cheery-frangollo-43737e.netlify.app/"
                     target={"_blank"}
                     rel="noreferrer"
                   >
                     <div class="projects-content-overlay"></div>
-                    <img src={hackathon} alt="screenshot from project" />
+                    <img src={exam2} alt="screenshot from project" />
                     <div class="projects-details fadeIn-bottom">
-                      <h3 class="projects-title">Hackathon project</h3>
-                      <p class="projects-text">Spring semester 2021</p>
+                      <h3 class="projects-title">Project Exam 2</h3>
+                      <p class="projects-text">June 2022</p>
                     </div>
                   </a>
                 </div>

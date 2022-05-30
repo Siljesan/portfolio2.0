@@ -1,17 +1,23 @@
-import { Route, Routes } from "react-router-dom";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Home from "./components/Home";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
 import "./sass/style.scss";
 
 function App() {
   return (
     <div className="backgroundImg">
-      <Routes>
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/" element={<Home />} />
-      </Routes>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }
